@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #b4b2df; 
+}
+
+header {
+    text-align: center;
+    background-color: #800080; 
+    color: white;
+    padding: 20px 0;
+}
+
+section#about-me {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 250px;
+    height: 280px;
+    margin-right: 30px;
+}
+
+.description {
+    flex-grow: 1;
+    max-width: 800px;
+}
+
+section#interests-education {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.column {
+    width: 40%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #b4b2df;
+}
+
+a {
+    color: #800080;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
